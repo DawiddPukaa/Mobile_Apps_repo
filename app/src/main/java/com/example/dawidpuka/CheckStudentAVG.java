@@ -1,2 +1,6 @@
-package com.example.dawidpuka;public class CheckStudentAVG {
+package com.example.dawidpuka;
+
+public class CheckStudentAVG {
+
+
 }

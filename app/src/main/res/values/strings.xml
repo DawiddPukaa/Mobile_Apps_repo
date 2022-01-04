@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">DawidPuka</string>
+    <string name="app_name">My App Dawid Puka</string>
+    <string name="name">Name</string>
+    <string name="input_name">Input Name</string>
+    <string name="surname">Surrname</string>
+    <string name="input_surname">Input Surname</string>
+    <string name="average_grade">Average Grade</string>
+    <string name="input_average_grade">Input Average Grade</string>
+    <string name="result">Result: </string>
+    <string name="result2">none</string>
 </resources>
