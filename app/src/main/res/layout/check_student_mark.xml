@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,14 +25,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Name" />
+                android:text="@string/name" />
 
             <EditText
                 android:id="@+id/editTextName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:text="Input name" />
+                android:text="@string/input_name" />
         </LinearLayout>
 
         <LinearLayout
@@ -46,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Surname" />
+                android:text="@string/surname" />
 
             <EditText
                 android:id="@+id/editTextSurname"
@@ -54,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Input surname" />
+                android:text="@string/input_surname" />
         </LinearLayout>
 
         <LinearLayout
@@ -67,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Subject" />
+                android:text="@string/subject" />
 
             <EditText
                 android:id="@+id/editTextSubject"
@@ -75,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Input subject" />
+                android:text="@string/input_subject" />
         </LinearLayout>
 
         <LinearLayout
@@ -88,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="4.48"
-                android:text="Average grade" />
+                android:text="@string/average_grade" />
 
             <EditText
                 android:id="@+id/editTextAvergrade"
@@ -96,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="numberDecimal"
-                android:text="Input avarage grade" />
+                android:text="@string/input_average_grade" />
         </LinearLayout>
 
         <LinearLayout
@@ -110,14 +109,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.78"
-                android:text="Result:" />
+                android:text="@string/result" />
 
             <TextView
                 android:id="@+id/textViewResult2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.12"
-                android:text="none" />
+                android:text="@string/result2" />
         </LinearLayout>
 
         <LinearLayout
@@ -130,8 +129,8 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Check"
-                android:onClick="check"/>
+                android:onClick="check"
+                android:text="@string/check" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,8 +4,11 @@
     <string name="input_name">Input Name</string>
     <string name="surname">Surrname</string>
     <string name="input_surname">Input Surname</string>
+    <string name="subject">Subject</string>
+    <string name="input_subject">Input Subject</string>
     <string name="average_grade">Average Grade</string>
     <string name="input_average_grade">Input Average Grade</string>
     <string name="result">Result: </string>
     <string name="result2">none</string>
+    <string name="check">Check</string>
 </resources>
